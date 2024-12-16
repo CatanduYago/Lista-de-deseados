@@ -1,0 +1,6 @@
+{
+    "/users*": "/600/users$1",
+    "/contactos*": "/660/contactos$1",
+    "/telefonos*": "/660/telefonos$1",
+    "/correos*": "/660/correos$1"
+}

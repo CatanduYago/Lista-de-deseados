@@ -1,0 +1,244 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Camiseta Honda P&B",
+      "price": 15.99,
+      "type": "Ropa",
+      "store": "P&B",
+      "image": "assets/item.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www.pullandbear.com/es/camiseta-honda-manga-corta-l03243583?cS=251&pelement=621948244"
+    },
+    {
+      "id": 2,
+      "name": "Lista de juegos deseados Steam",
+      "price": 0,
+      "type": "Videojuegos",
+      "store": "Steam",
+      "image": "assets/steam.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://store.steampowered.com/wishlist/id/yagoxdidi/#sort=order"
+    },
+    {
+      "id": 3,
+      "name": "Lego Ayrton Senna",
+      "price": 79.99,
+      "type": "Lego",
+      "store": "Lego",
+      "image": "assets/item22.png",
+      "nivelDeDeseo": "❤️",
+      "enlaceDeCompra": "https://www.lego.com/es-es/product/mclaren-mp4-4-ayrton-senna-10330"
+    },
+    {
+      "id": 4,
+      "name": "Brazo de micrófono",
+      "price": 14.99,
+      "type": "Para el Setup",
+      "store": "IKEA",
+      "image": "assets/item3.png",
+      "nivelDeDeseo": "❤️",
+      "enlaceDeCompra": "https://www.ikea.com/es/es/p/lanespelare-brazo-microfono-con-fijacion-roscada-antracita-90571397/?gad_source=1"
+    },
+    {
+      "id": 5,
+      "name": "Teclado low profile",
+      "price": 84,
+      "type": "Teclados",
+      "store": "Keychron",
+      "image": "assets/item4.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://keychron.com.es/es/products/keychron-k3-ultra-slim-wireless-mechanical-keyboard-es-iso-layout-version-2"
+    },
+    {
+      "id": 6,
+      "name": "Batería portátil",
+      "price": 40,
+      "type": "Para mí",
+      "store": "Amazon",
+      "image": "assets/item25.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www.amazon.com/-/es/Anker-PowerCore-Essential-20000-compatible/dp/B08LG2X98F"
+    },
+    {
+      "id": 8,
+      "name": "Sai",
+      "price": 40.99,
+      "type": "Para el Setup",
+      "store": "Amazon",
+      "image": "assets/item27.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www.amazon.es/comprar-sai/s?k=comprar+sai"
+    },
+    {
+      "id": 9,
+      "name": "Bombilla inteligente",
+      "price": 8,
+      "type": "Para mí",
+      "store": "Amazon",
+      "image": "assets/item24.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://amzn.eu/d/1OwmJnO"
+    },
+    {
+      "id": 10,
+      "name": "Keycaps Set",
+      "price": 95,
+      "type": "Teclados",
+      "store": "KBDFans",
+      "image": "assets/item5.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://kbdfans.com/products/national-rhyme-pga-profile-keycaps-set?variant=41893829214347"
+    },
+    {
+      "id": 11,
+      "name": "Keycaps Set",
+      "price": 32,
+      "type": "Teclados",
+      "store": "AliExpress",
+      "image": "assets/item6.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://es.aliexpress.com/item/1005006950030667.html?spm=a2g0o.productlist.main.9.56281deaRNfFjF&algo_pvid=49407a0d-0521-4f4b-a131-3797d09f5ae4&utparam-url=scene%3Asearch%7Cquery_from%3A"
+    },
+    {
+      "id": 12,
+      "name": "Silla Ergonómica",
+      "price": 120,
+      "type": "Pal Setup",
+      "store": "Amazon",
+      "image": "assets/item7.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www.amazon.es/dp/B0BBV2PGMJ/?coliid=I2QC1DCRYCOR43&colid=3KB2IX11QSXZZ&ref_=list_c_wl_lv_ov_lig_dp_it"
+    },
+    {
+      "id": 13,
+      "name": "Silla Ergonómica 2",
+      "price": 79.99,
+      "type": "Pal Setup",
+      "store": "Amazon",
+      "image": "assets/item8.png",
+      "nivelDeDeseo": "❤️",
+      "enlaceDeCompra": "https://www.amazon.es/Yaheetech-oficina-giratoria-reposabrazos-blanco/dp/B07TDPZM2K/ref=pd_ci_mcx_pspc_dp_d_2_t_1"
+    },
+    {
+      "id": 14,
+      "name": "Volante Moza V2",
+      "price": 479,
+      "type": "Pal Setup",
+      "store": "Amazon",
+      "image": "assets/item9.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://amazon.es/Moza-MOZA-RS-V2-MOZA-RS-Lenkrad/dp/B07DVWNMK7/ref=sr_1_10?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-10&ufe=app_do%3Aamzn1.fos.5e544547-1f8e-4072-8c08-ed563e39fc7d"
+    },
+    {
+      "id": 15,
+      "name": "Corsair Vengeance RAM",
+      "price": 44,
+      "type": "Pal Setup",
+      "store": "Amazon",
+      "image": "assets/item10.png",
+      "nivelDeDeseo": "❤️",
+      "enlaceDeCompra": "https://www.amazon.es/Corsair-Vengeance-LPX-Memoria-Rendimiento/dp/B0143UM4TC"
+    },
+    {
+      "id": 16,
+      "name": "Superlight G Pro 2",
+      "price": 179,
+      "type": "Pal Setup",
+      "store": "Amazon",
+      "image": "assets/item11.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www.amazon.es/Logitech-SUPERLIGHT-Inal%C3%A1mbrico-interruptores-programables/dp/B07W4DGPGF?ref_=ast_sto_dp"
+    },
+    {
+      "id": 17,
+      "name": "Pedales Moza",
+      "price": 300,
+      "type": "Pal Setup",
+      "store": "Amazon",
+      "image": "assets/item12.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www.amazon.es/dp/B0B2R4TTXD/?coliid=I1RC5CCMA9C2ZS&colid=3KB2IX11QSXZZ&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it"
+    },
+    {
+      "id": 18,
+      "name": "Moza R9 DD",
+      "price": 591,
+      "type": "Pal Setup",
+      "store": "Amazon",
+      "image": "assets/item13.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www.amazon.es/MOZA-RACING-Direct-Drive-Empattement/dp/B0B2R2F3QJ/ref=sr_1_3?crid=3KB2IX11QSXZZ&coliid=I1QCX7X8PM93EM&colid=3KB2IX11QSXZZ&ref_=list_c_wl_lv_ov_lig_dp_it&sr=8-3"
+    },
+    {
+      "id": 19,
+      "name": "Volante Logitech G923",
+      "price": 159,
+      "type": "Pal Setup",
+      "store": "Amazon",
+      "image": "assets/item14.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www.amazon.es/Logitech-G923-Steam-PS5-PC/dp/B08CVWJ4ZW/ref=sr_1_2?crid=3KB2IX11QSXZZ&coliid=I1QCX7X8PM93EM&colid=3KB2IX11QSXZZ&ref_=list_c_wl_lv_ov_lig_dp_it&sr=8-2"
+    },
+    {
+      "id": 21,
+      "name": "Alfombrilla",
+      "price": 20,
+      "type": "Pal Setup",
+      "store": "Amazon",
+      "image": "assets/item18.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www.amazon.es/dp/B0BHHTN5VF/?coliid=I1FVCFE5JPOFNE&colid=3KB2IX11QSXZZ&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it"
+    },
+    {
+      "id": 22,
+      "name": "Monitor 165Hz",
+      "price": 110,
+      "type": "Pal Setup",
+      "store": "Amazon",
+      "image": "assets/item16.png",
+      "nivelDeDeseo": "❤️",
+      "enlaceDeCompra": "https://www.amazon.es/LG-24GQ50F-B-Ultragear-1920x1080p-inclinaci%C3%B3n/dp/B0BM4VRWMZ/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&s=computers&sr=1-3&ufe=app_do%3Aamzn1.fos.5e544547-1f8e-4072-8c08-ed563e39fc7d"
+    },
+    {
+      "id": 23,
+      "name": "Sudadera Everything is connected",
+      "price": 25.99,
+      "type": "Ropa",
+      "store": "H&M",
+      "image": "assets/item17.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www2.hm.com/es_es/productpage.0981416036.html"
+    },
+    {
+      "id": 24,
+      "name": "Sudadera Life is What You Make It",
+      "price": 29.99,
+      "type": "Ropa",
+      "store": "H&M",
+      "image": "assets/item19.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www2.hm.com/es_es/productpage.1019679055.html"
+    },
+    {
+      "id": 25,
+      "name": "Camiseta Worlds MDK",
+      "price": 80,
+      "type": "Ropa",
+      "store": "madlionsShop",
+      "image": "assets/item20.png",
+      "nivelDeDeseo": "❤️",
+      "enlaceDeCompra": "https://shop.madlions.com/es/worlds/330-2666-koi-jersey-2024-worlds-poro-mad-lions.html#/483-tallas-s/597-color-blue_blue_dark"
+    },
+    {
+      "id": 26,
+      "name": "Camiseta Radiant vision",
+      "price": 12.99,
+      "type": "Ropa",
+      "store": "P&B",
+      "image": "assets/item21.png",
+      "nivelDeDeseo": "",
+      "enlaceDeCompra": "https://www.pullandbear.com/es/camiseta-grafico-esqueleto-l07248587?cS=505&pelement=621948285"
+    }
+  ]
+}
