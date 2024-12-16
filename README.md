@@ -1,48 +1,48 @@
 
-# Proyecto de Lista de Deseos - Angular 14 & Bootstrap
+# ✨ Proyecto de Lista de Deseos - Angular 14 & Bootstrap 🎁
 
 Este es un proyecto de una aplicación web de **Lista de Deseos** (Wishlist) creada con **Angular 14** y **Bootstrap**. 
 Los usuarios pueden agregar artículos a su lista de deseos, filtrarlos por tipo y tienda, ordenarlos por precio, y acceder 
 a enlaces de compra directamente desde la aplicación. Además, se ofrece la funcionalidad de mover los artículos a una lista de "Comprados".
 
-Este proyecto utiliza un backend basado en JSON que se ejecuta con el comando:
+🚀 **Este proyecto utiliza un backend basado en JSON** que se ejecuta con el comando:
 
 ```bash
 npx json-server --watch back-end/db.json
 ```
 
-## Funcionalidades
+## 🌟 Funcionalidades
 
-- Filtrar artículos por tipo y tienda.
-- Ordenar artículos por precio.
-- Ver detalles y enlace de compra.
-- Sección para artículos comprados.
-- Sección para administrar las tallas de los artículos.
+- 🔍 Filtrar artículos por tipo y tienda.
+- 📊 Ordenar artículos por precio.
+- 🛒 Ver detalles y enlace de compra.
+- ✅ Sección para artículos comprados.
+- 📏 Sección para administrar las tallas de los artículos.
 
-## Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 
-- [Angular 14](https://angular.io/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Node.js](https://nodejs.org/)
+- [Angular 14](https://angular.io/) ⚡
+- [Bootstrap](https://getbootstrap.com/) 🎨
+- [Node.js](https://nodejs.org/) 🖥️
 
-## Requisitos
+## 📋 Requisitos
 
-- Node.js (versión: 15.14.0)
-- npm (gestor de paquetes de Node)
-- Angular CLI 14.x
+- **Node.js** (versión: 15.14.0) 🌐
+- **npm** (gestor de paquetes de Node) 📦
+- **Angular CLI** 14.x 🛠️
 
-## Instalación
+## 📖 Instalación
 
 Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
-### 1. Clonar el repositorio
+### 1️⃣ Clonar el repositorio
 
 ```bash
 git clone git@github.com:CatanduYago/wishlist-website.git
 cd wishlist
 ```
 
-### 2. Instalar dependencias
+### 2️⃣ Instalar dependencias
 
 Una vez que estés dentro del directorio del proyecto, instala todas las dependencias necesarias con:
 
@@ -50,7 +50,7 @@ Una vez que estés dentro del directorio del proyecto, instala todas las depende
 npm install
 ```
 
-### 3. Iniciar el servidor de desarrollo
+### 3️⃣ Iniciar el servidor de desarrollo
 
 Instalar el cliente de Angular:
 
@@ -58,7 +58,7 @@ Instalar el cliente de Angular:
 npm install -g @angular/cli@14
 ```
 
-### 4. Ejecutar el servidor
+### 4️⃣ Ejecutar el servidor
 
 Iniciar el servidor de desarrollo ejecutando:
 
@@ -66,6 +66,6 @@ Iniciar el servidor de desarrollo ejecutando:
 ng serve
 ```
 
-## Contribuciones
+## ❤️ Contribuciones
 
-Si deseas contribuir al proyecto, puedes hacer un fork del repositorio y luego enviar un pull request con tus mejoras o correcciones.
+Si deseas contribuir al proyecto, puedes hacer un fork del repositorio y luego enviar un pull request con tus mejoras o correcciones. ¡Tu ayuda será muy apreciada! ✨
