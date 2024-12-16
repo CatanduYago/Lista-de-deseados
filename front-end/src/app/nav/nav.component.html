@@ -1,0 +1,50 @@
+<nav id="nav">
+  <img src="assets/yippie.gif" alt="Logo" />
+  <span class="mx-3">Mi lista de deseados</span>
+  <img src="assets/yippie.gif" alt="Logo" />
+
+  <!-- Botón para desplegar el menú -->
+  <button
+    class="btn dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    <img src="assets/menu.png" alt="Menú" />
+  </button>
+
+  <!-- Menú desplegable -->
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-md-12">
+          <app-filter
+            [types]="[
+              'Ropa',
+              'Videojuegos',
+              'Para el Setup',
+              'Libros',
+              'Teclados',
+              'Para mí'
+            ]"
+            [stores]="[
+              'Amazon',
+              'Steam',
+              'P&B',
+              'H&M',
+              'IKEA',
+              'Keychron',
+              'KBDFans',
+              'AliExpress',
+              'madlionsShop',
+              'Lego'
+            ]"
+            (typeSelected)="filterByType($event ?? null)"
+            (storeSelected)="filterByStore($event ?? null)"
+          ></app-filter>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

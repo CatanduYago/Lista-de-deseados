@@ -1,0 +1,24 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="name" [(ngModel)]="item.name" name="name" required>
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Precio</label>
+      <input type="number" class="form-control" id="price" [(ngModel)]="item.price" name="price" required>
+    </div>
+    <div class="mb-3">
+      <label for="type" class="form-label">Tipo</label>
+      <input type="text" class="form-control" id="type" [(ngModel)]="item.type" name="type" required>
+    </div>
+    <div class="mb-3">
+      <label for="store" class="form-label">Tienda</label>
+      <input type="text" class="form-control" id="store" [(ngModel)]="item.store" name="store" required>
+    </div>
+    <div class="mb-3">
+      <label for="enlaceDeCompra" class="form-label">Enlace de Compra</label>
+      <input type="url" class="form-control" id="enlaceDeCompra" [(ngModel)]="item.enlaceDeCompra" name="enlaceDeCompra">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+  </form>
+  

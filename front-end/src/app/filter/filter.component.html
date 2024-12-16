@@ -1,0 +1,21 @@
+<div class="filters">
+  <div class="filter" *ngFor="let type of types" (click)="toggleType(type)">
+    <span [ngClass]="{ selected: selectedType === type }">{{ type }}</span>
+    <span
+      *ngIf="selectedType === type"
+      class="remove-filter"
+      (click)="clearType($event)"
+      >X</span
+    >
+  </div>
+
+  <div class="filter" *ngFor="let store of stores" (click)="toggleStore(store)">
+    <span [ngClass]="{ selected: selectedStore === store }">{{ store }}</span>
+    <span
+      *ngIf="selectedStore === store"
+      class="remove-filter"
+      (click)="clearStore($event)"
+      >X</span
+    >
+  </div>
+</div>

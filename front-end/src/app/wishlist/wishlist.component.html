@@ -1,0 +1,102 @@
+<app-nav></app-nav>
+
+<div class="container mt-4">
+  <app-confirm-modal id="modal"
+        #confirmarModal
+        [title]="'Eliminar Producto'"
+        [message]="'¿Estás seguro de que quieres eliminar este producto?'"
+        (confirmed)="confirmarDelete()"
+      ></app-confirm-modal>
+  <div class="row">
+    <!-- Filtros -->
+    <div class="col-md-2 pc-filters">
+      <app-filter [types]="types" [stores]="stores" (typeSelected)="filterByType($event)"
+        (storeSelected)="filterByStore($event)"></app-filter>
+    </div>
+
+    <div class="col-md-10">
+      <div class="accordion" id="wishlistAccordion">
+        <!-- Sección de Lista de Deseados -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="wishlistHeading">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#wishlistCollapse" 
+              [attr.aria-expanded]="wishlistOpen" aria-controls="wishlistCollapse" (click)="toggleWishlist()">
+              Lista de Deseados
+              <span class="arrow ms-auto" [ngClass]="{ 'rotate': wishlistOpen }"></span>
+            </button>
+          </h2>
+          <div *ngIf="wishlistOpen" id="wishlistCollapse" class="accordion-collapse collapse show" aria-labelledby="wishlistHeading">
+            <!-- Botón para agregar un producto nuevo -->
+            <button (click)="navigateToAddItemForm()" class="btn btn-outline-success mt-4 w-25 fs-6">
+              Añadir Nuevo Objeto
+            </button>
+            <div class="accordion-body d-flex row">
+              <div class="sort-buttons mb-3">
+                <button class="btn my-btn-secondary" (click)="sortByPrice('desc')">
+                  Ordenar por precio (Desc)
+                </button>
+                <button class="btn my-btn-secondary" (click)="sortByPrice('asc')">
+                  Ordenar por precio (Asc)
+                </button>
+              </div>
+
+              <!-- Lista de ítems -->
+              <div
+                *ngFor="let item of wishlist | filterByType:selectedType | filterByStore:selectedStore | filterByPrice:sortDirection"
+                class="col-6 col-md-4 mb-3">
+                <div class="card h-100">
+                  <div class="row g-0">
+                    <div class="col-12 position-relative">
+                      <img loading="lazy" [src]="item.image" class="img-fluid w-100" alt="wishlist item imagen" />
+                      <div class="wishlist-level">
+                        <span class="my-bg-secondary">{{ item.nivelDeDeseo }}</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ item.name }}</h5>
+                      <p class="card-text">
+                        <span class="badge my-bg-info" (click)="filterByType(item.type)">{{ item.type }}</span><br />
+                        <span class="badge bg-success" (click)="filterByStore(item.store)">{{ item.store }}</span><br />
+                      </p>
+                      <p>
+                        Precio:
+                        {{ item.price | currency : 'EUR' : 'symbol' }}<br />
+                      </p>
+                      <a [href]="item.enlaceDeCompra" target="_blank" class="btn btn-sm btn-primary h-auto">Comprar</a>
+                      <button (click)="editItem(item)" class="btn btn-sm btn-warning mx-2 btn-personalizado">
+                        Editar
+                      </button>
+                      <button (click)="mostrarModal(item.id)"
+                      class="btn btn-sm btn-danger btn-personalizado">
+                        Borrar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección de Tallas -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sizeHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sizeCollapse" 
+            [attr.aria-expanded]="sizeOpen" aria-controls="sizeCollapse" (click)="toggleSize()">
+            Tallas
+            <span class="arrow ms-auto" [ngClass]="{ 'rotate': sizeOpen }"></span>
+          </button>
+        </h2>
+        
+        <div *ngIf="sizeOpen" id="sizeCollapse" class="accordion-collapse collapse show" aria-labelledby="sizeHeading">
+          <div class="accordion-body">
+            <app-size></app-size>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
