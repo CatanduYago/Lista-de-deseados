@@ -3,7 +3,7 @@
 
 Este es un proyecto de una aplicación web de **Lista de Deseos** (Wishlist) creada con **Angular 14** y **Bootstrap**. 
 Los usuarios pueden agregar artículos a su lista de deseos, filtrarlos por tipo y tienda, ordenarlos por precio, y acceder 
-a enlaces de compra directamente desde la aplicación. Además, se ofrece la funcionalidad de mover los artículos a una lista de "Comprados".
+a enlaces de compra directamente desde la aplicación.
 
 🚀 **Este proyecto utiliza un backend basado en JSON** que se ejecuta con el comando:
 
