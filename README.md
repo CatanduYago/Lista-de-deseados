@@ -1,5 +1,5 @@
 
-# ✨ Proyecto de Lista de Deseos - Angular 14 & Bootstrap 🎁
+# ✨ Proyecto de Lista de Deseos - Angular 🎁
 
 Este es un proyecto de una aplicación web de **Lista de Deseos** (Wishlist) creada con **Angular 14** y **Bootstrap**. 
 Los usuarios pueden agregar artículos a su lista de deseos, filtrarlos por tipo y tienda, ordenarlos por precio, y acceder 
